@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-# Reading ut file
+# Reading our file
 ad_data = pd.read_csv('advertising.csv')
 ad_data.head()
 ad_data.describe()
